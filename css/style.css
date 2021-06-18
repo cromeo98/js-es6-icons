@@ -5,3 +5,17 @@
 .ms_blu-bg{
     background-color: rgb(41, 177, 221);
 }
+
+.ms_icon-font-size{
+    font-size: 3rem;
+}
+
+.ms_icon-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+.full-screen-container{
+    background-color: rgb(221, 221, 221);
+}
