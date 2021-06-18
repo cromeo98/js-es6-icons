@@ -99,3 +99,14 @@ const icons = [
       family: 'fas',
     },
   ];
+
+  icons.forEach(element => {
+    const {name, prefix, type, family} = element;
+    document.getElementById('icons-container').innerHTML +=`
+    <div class="col w-20x prl-1rem">
+      <div class="ms_icon-container ptb-2rem txt-cen ms_icon-font-size">
+      <i class="${family} ${prefix}${name}"></i>
+      </div>
+    </div>
+    `
+  });

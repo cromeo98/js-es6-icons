@@ -95,6 +95,10 @@
     width: 25%;
 }
 
+.w-20x{
+    width: 20%;
+}
+
 /* white col */
 .bg-white{
     background-color: white;
