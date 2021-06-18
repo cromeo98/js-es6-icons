@@ -717,11 +717,11 @@
 }
 
 /* debug */
-/* [class*="col"]{
+[class*="col"]{
     border: 1px solid blue;
 }
 
 .red-bord{
     border: 1px solid red;
-} */
+}
 
