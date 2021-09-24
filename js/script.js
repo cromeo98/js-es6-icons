@@ -120,7 +120,7 @@ const iconWithColors = icons.map((element) => {
 icons.forEach(element => {
   const {name, prefix, family, color} = element;
   document.getElementById('icons-container').innerHTML +=`
-    <div class="col w-20x prl-1rem">
+    <div class="col w-20x p-1rem">
       <div class="ms_icon-container ptb-2rem txt-cen ms_icon-font-size">
       <i style="color:${color}" class="${family} ${prefix}${name}"></i>
       <div class="font-size-1rem">${name.toUpperCase()}      </div>
